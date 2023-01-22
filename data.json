@@ -1,0 +1,53 @@
+[
+  {
+    "titulo": "Trabajo",
+    "tiempo": {
+      "diario": {
+        "actual": 9,
+        "recomendado": 7
+      },
+      "semanal": {
+        "actual": 45,
+        "recomendado": 35
+      },
+      "mensual": {
+        "actual": 180,
+        "recomendado": 140
+      }
+    }
+  },
+  {
+    "titulo": "Oseo",
+    "tiempo": {
+      "diario": {
+        "actual": 1,
+        "recomendado": 2
+      },
+      "semanal": {
+        "actual": 10,
+        "recomendado": 20
+      },
+      "mensual": {
+        "actual": 30,
+        "recomendado": 50
+      }
+    }
+  },
+  {
+    "titulo": "Estudio",
+    "tiempo": {
+      "diario": {
+        "actual": 1,
+        "recomendado": 2
+      },
+      "semanal": {
+        "actual": 4,
+        "previo": 15
+      },
+      "mensual": {
+        "actual": 15,
+        "recomendado": 60
+      }
+    }
+  }
+]

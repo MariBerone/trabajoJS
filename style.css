@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+ --Light-orange: hsl(15, 100%, 70%);
+ --Lime-green: hsl(145, 58%, 55%);
+ --Very-dark-blue: hsl(226, 43%, 10%);
+ --Dark-blue: hsl(235, 46%, 20%);
+ --Desaturated-blue: hsl(235, 45%, 61%);
+ --Pale-Blue: hsl(236, 100%, 87%);
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--Very-dark-blue);
+    color: var(--Pale-Blue);
+}
+
+.main-contendor{
+    width: 330px;
+    margin: 80px auto;
+    position: relative;
+}
+.main-secc{
+    background-color: var(--Desaturated-blue);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+.main-secc__imagen{
+ width: 75px;
+ border-radius: 50px;
+ border: 3px solid white;
+}
+.main-secc__infoPersonal{
+    font-size: 0.95em;
+    margin: 10px auto;
+}
+.main-secc__fechas{
+    background-color: var(--Dark-blue);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    font-size: 1.2em;
+    position: absolute;
+    width: 100%;
+    top: 122px;
+   
+}
+.main-secc__frecuencia:hover{
+cursor: pointer;
+color: var(--Light-orange);
+}
+.segunda-secc{
+    padding-top: 210px;
+}
+.tareas{
+ position: relative;
+ margin-bottom: 105px;
+}
+.tareas-trabajo{
+    background-color: var(--Lime-green);
+    height: 80px;
+    border-radius: 16px;
+}
+.tareas-detalles{
+    background-color: var(--Dark-blue);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 122px;
+    justify-content: space-between;
+    padding: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: -80px;
+    font-size: 1.2em;
+}
+.tareas-detalles:hover{
+    background-color: var(--Desaturated-blue);
+    cursor: pointer;
+}
+.tarea-act1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.tarea-hs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
